@@ -11,21 +11,30 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-bloom.png');
   background-repeat: no-repeat;
   height: 205px;
-  width: 100%
+  width: 350px;
   
 }
 
 .ana{
   background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-ana.png');
   background-repeat: no-repeat;
-  height: 205px;
-  width: 100%
+  height: 210px;
+  width: 350px;
 }
 .zabo{
   background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-zabo.png');
   background-repeat: no-repeat;
-  height: 205px;
+  height: 210px;
   width: 100%
+}
+
+.sub{
+  background-image: url('/B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+  width: 100%;
+  background-repeat: no-repeat;
+
+  height: 550px;
+  
 }
 
 
