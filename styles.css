@@ -8,7 +8,7 @@
 }
 
 .bloom{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-bloom.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('./B12A02-Responsive-Flowers/assets/deal-bloom.png');
   background-repeat: no-repeat;
   height: 205px;
   width: 350px;
@@ -16,23 +16,23 @@
 }
 
 .ana{
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-ana.png');
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('./B12A02-Responsive-Flowers/assets/deal-ana.png');
   background-repeat: no-repeat;
-  height: 210px;
+  height: 200px;
   width: 350px;
 }
 .zabo{
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-zabo.png');
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('./B12A02-Responsive-Flowers/assets/deal-zabo.png');
   background-repeat: no-repeat;
-  height: 210px;
+  height: 420px;
   width: 100%
 }
 
 .sub{
-  background-image: url('/B12A02-Responsive-Flowers/assets/news-letter-bg.png');
-  width: 100%;
-  background-repeat: no-repeat;
+  background-image: url('./B12A02-Responsive-Flowers/assets/news-letter-bg.png');
 
+  max-width: 1440px;
+  background-repeat: no-repeat;
   height: 550px;
   
 }
@@ -40,7 +40,18 @@
 /* responsive */
 
 @media screen and (max-width:576px) {
-  
+  .banner{
+      flex-direction: column-reverse;
+  }
+  .plants{
+    text-align: center;
+    gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+  .pl-p{
+    width: 300px;
+  }
 }
 
 
