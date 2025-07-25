@@ -49,9 +49,19 @@
     grid-template-columns: repeat(2,1fr);
     
   }
-  .pl-p{
-    width: 300px;
+  .pl{
+    width: 712px;
+    margin-left: 600px;
   }
+
+  .pl-p{
+    width: 336px;
+  }
+  .latest-deals{
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
 
 
