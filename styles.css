@@ -7,4 +7,34 @@
     "wdth" 100;
 }
 
+.bloom{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-bloom.png');
+  background-repeat: no-repeat;
+  height: 205px;
+  width: 100%
+  
+}
+
+.ana{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-ana.png');
+  background-repeat: no-repeat;
+  height: 205px;
+  width: 100%
+}
+.zabo{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/B12A02-Responsive-Flowers/assets/deal-zabo.png');
+  background-repeat: no-repeat;
+  height: 205px;
+  width: 100%
+}
+
+
+
+
+
+
+
+
+
 @import "tailwindcss"
+
